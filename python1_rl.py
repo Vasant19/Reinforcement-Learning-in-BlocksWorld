@@ -98,7 +98,7 @@ def train_qlearning(env, episodes, gamma, epsilon, epsilon_min, decay, alpha, ru
     print(f"Saved plot to {filename}")
     plt.close('all')
 
-    print("Training complete. Exiting now.")
+    print("Training complete ✅. Exiting now.")
 
     # Finally close the environment
     env.close()
@@ -143,6 +143,7 @@ def main():
         train_qlearning(ENV, **SET1, run_name="DEMO RUN")
     except KeyboardInterrupt:
         print("\n[INFO] Training interrupted by user.")
+        os._exit(0)
     except Exception as e:
         print(f"\n[ERROR] Unexpected exception: {e}")
     finally:
@@ -150,7 +151,6 @@ def main():
         try:
             ENV.close()
             print("[INFO] Environment closed successfully.")
-            print("Training Complete Success ✔.")
         except Exception as e:
             print(f"[WARN] Failed to close environment: {e}")
         os._exit(0)
