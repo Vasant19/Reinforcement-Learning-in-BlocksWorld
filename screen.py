@@ -44,11 +44,8 @@ class Display():
     def start(self):
         # main loop
         while self.running:
-            # event handling, gets all event from the event queue
             for event in pygame.event.get():
-                # only do something if the event is of type QUIT
                 if event.type == pygame.QUIT:
-                    # change the value to False, to exit the main loop
                     self.running = False
 
     def step(self,state):
@@ -69,11 +66,8 @@ class Display():
         self.screen.blit(self.c, (self.positions[c_x],self.heights[c_y]))
 
         pygame.display.flip()
-        # event handling, gets all event from the event queue
         for event in pygame.event.get():
-            # only do something if the event is of type QUIT
             if event.type == pygame.QUIT:
-                # change the value to False, to exit the main loop
                 self.running = False
 
     def initial(self,state):
@@ -86,11 +80,8 @@ class Display():
         self.screen.blit(self.b, (self.positions[b_x],self.heights[b_y]))
         self.screen.blit(self.c, (self.positions[c_x],self.heights[c_y]))
         pygame.display.flip()
-        # event handling, gets all event from the event queue
         for event in pygame.event.get():
-            # only do something if the event is of type QUIT
             if event.type == pygame.QUIT:
-                # change the value to False, to exit the main loop
                 self.running = False
         
 
