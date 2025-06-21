@@ -1,0 +1,33 @@
+Training Log
+Hyperparameters: Gamma: 0.9, Epsilon: 0.2, Decay: 0.01, Alpha: 0.5
+
+Episode 1: Steps 3462, Total Reward -32143
+Episode 2: Steps 1642, Total Reward -14591
+Episode 3: Steps 1617, Total Reward -14782
+Episode 4: Steps 247, Total Reward -2144
+Episode 5: Steps 839, Total Reward -7020
+Episode 6: Steps 1370, Total Reward -11970
+Episode 7: Steps 3394, Total Reward -28142
+Episode 8: Steps 814, Total Reward -4754
+Episode 9: Steps 231, Total Reward -553
+Episode 10: Steps 162, Total Reward -277
+Episode 11: Steps 226, Total Reward -521
+Episode 12: Steps 274, Total Reward -614
+Episode 13: Steps 60, Total Reward -58
+Episode 14: Steps 215, Total Reward -456
+Episode 15: Steps 429, Total Reward -1021
+Episode 16: Steps 471, Total Reward -1117
+Episode 17: Steps 95, Total Reward -120
+Episode 18: Steps 654, Total Reward -1597
+Episode 19: Steps 79, Total Reward -86
+Episode 20: Steps 350, Total Reward -726
+Episode 21: Steps 136, Total Reward -170
+Episode 22: Steps 57, Total Reward -10
+Episode 23: Steps 125, Total Reward -222
+Episode 24: Steps 12, Total Reward 80
+Episode 25: Steps 15, Total Reward 86
+Episode 26: Steps 118, Total Reward -134
+Episode 27: Steps 384, Total Reward -769
+Episode 28: Steps 335, Total Reward -612
+Episode 29: Steps 218, Total Reward -414
+Episode 30: Steps 316, Total Reward -863
