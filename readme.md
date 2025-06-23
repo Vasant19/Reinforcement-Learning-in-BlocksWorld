@@ -7,7 +7,7 @@ This project implements Reinforcement Learning agents to solve the classic **Blo
 - **DQN** (Deep Q-Networks)
 - **PPO** (Proximal Policy Optimization)
 
-Agents learn to rearrange blocks to match goal configurations, navigating a symbolic planning space integrated with logic-based rules from Prolog.
+Agents learn to rearrange blocks (top) to match goal configurations (bottom) , navigating a symbolic planning space integrated with logic-based rules from Prolog.
 
 ---
 
