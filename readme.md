@@ -1,4 +1,5 @@
 # 🧠 Blocks World RL Agents
+[Screencast from 2025-06-23 15-06-15.webm](https://github.com/user-attachments/assets/7da4cdcf-dc15-444c-bc8c-c4c6af080afa)
 
 This project implements Reinforcement Learning agents to solve the classic **Blocks World** environment using:
 
